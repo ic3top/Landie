@@ -1,0 +1,30 @@
+.price {
+    // background-color: rgba(231, 236, 255, 0.5);
+    background: no-repeat url("../img/back_grounds/Rectangle.png");
+    background-size: cover;
+    background-position: center top;
+    &__wrapper {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__descr {
+        margin-top: 16px;
+        width: 600px;
+        text-align: center;
+    }
+    &__price {
+        margin-top: 35px;
+    }
+    &__text {
+        margin-top: 90px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__btn {
+        margin-top: 9px;
+    }
+}

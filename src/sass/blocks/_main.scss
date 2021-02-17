@@ -1,0 +1,26 @@
+.main {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__block {
+        width: 540px;
+    }
+    &__descr {
+        margin-top: 16px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 80px;
+        width: 255px;
+    }
+    &__img {
+        width: 540px;
+        height: 525px;
+    }
+}

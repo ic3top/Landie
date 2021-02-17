@@ -1,0 +1,28 @@
+.promo {
+	position: relative;
+    &__btns {
+		margin-top: 70px;
+		display: flex;
+		align-items: center;
+    }
+    &__descr {
+        margin-top: 20px;
+    }
+    &__block {
+		width: 540px;
+		z-index: 10;
+	  }
+    &__btn {
+        margin-right: 30px;
+    }
+    &__img {
+		top: 0px;
+		position: absolute;	
+		z-index: -1;
+		left: 40%;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

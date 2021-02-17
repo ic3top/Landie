@@ -1,0 +1,20 @@
+.cards {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        &:nth-child(n+2) {
+            margin-top: 225px;
+        }
+    }
+    &__right {
+        width: 445px;
+    }
+    &__descr {
+        margin-top: 16px;
+    }
+    &__btn {
+        margin-top: 40px;
+    }
+}

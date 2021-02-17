@@ -1,0 +1,18 @@
+.descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--sub-color);
+    &_fz16 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &_fz12 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &_dark {
+        color: var(--descr-color);
+    }
+}

@@ -1,0 +1,17 @@
+.title {
+    color: var(--title-color);
+    font-weight: 500;
+    letter-spacing: 1px;
+    &_fz50 {
+        font-size: 50px;
+        line-height: 66px;
+    }
+    &_fz36 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
