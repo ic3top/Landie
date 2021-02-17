@@ -1,4 +1,4 @@
-# Landing page layout
+# Landing page
 > A common landing page made with SCSS, HTML and a little JS
 
 ## Table of contents
